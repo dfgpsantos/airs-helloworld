@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwen Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Qwen Chat</h1>
+            <span class="model-badge">Qwen3.5-35B-A3B</span>
+        </header>
+        <div class="messages" id="messages">
+            <div class="message assistant">
+                <div class="message-content">Hello! How can I help you today?</div>
+            </div>
+        </div>
+        <form class="input-area" id="chat-form">
+            <textarea id="user-input" placeholder="Type a message..." rows="1"></textarea>
+            <button type="submit" id="send-btn">Send</button>
+        </form>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
